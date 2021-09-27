@@ -39,3 +39,39 @@ button:focus{
 .p-1 {
   padding: 1px;
 }
+.row{
+  display: flex; 
+}
+.col {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+li button{
+  background-color: rgb(199, 63, 14);
+  color: black;
+  height: 30px;
+  border-radius: 75%;
+  text-align: center;
+  text-overflow: unset;
+  align-items: flex-end;
+  justify-self: flex-end;
+}
+
+li button:hover{
+  background-color: rgb(129, 40, 8);
+  color: #ccc;
+}
+
+input{
+  display: block;
+  margin: 5px;
+  border: 1px solid #ccc ;
+  border-radius: 5px;
+  font-size: 1rem;
+}
